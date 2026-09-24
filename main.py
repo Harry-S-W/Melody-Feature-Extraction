@@ -7,13 +7,13 @@ import pandas as pd
 This python script extracts the following:
 
     - Mean F0 - DONE
-    - Standard Error of Mean F0 
+    - Standard Error of Mean F0 - NOT IMPLEMENTED
     - Median F0 - DONE
-    - Uncertainty of Median F0 via Bootstrapping
+    - Uncertainty of Median F0 via Bootstrapping - NOT IMPLEMENTED
     - F0 95th Percentile - DONE
-    - Uncertainty of F0 (95th Percentile) via Bootstrapping
+    - Uncertainty of F0 (95th Percentile) via Bootstrapping - NOT IMPLEMENTED
     - F0 5th Percentile  - DONE
-    - Uncertainty of F0 (5th Percentile) via Bootstrapping
+    - Uncertainty of F0 (5th Percentile) via Bootstrapping - NOT IMPLEMENTED
     - FO SD - DONE
     
 Exports as wide and long CSV (can be adjusted to parquet for security/compression reasons)
