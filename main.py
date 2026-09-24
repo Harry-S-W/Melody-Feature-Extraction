@@ -52,8 +52,6 @@ def main(path):
             Feature_Dict_DF = pd.DataFrame(feature_dictionary)
             Feature_Dict_DF.to_csv("Features.csv", index=False)
 
-            print(feature_dictionary)
-
         else:
             print(f"ERROR: <{path + sound_file} is not a valid path.")
 
